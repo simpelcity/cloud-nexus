@@ -10,29 +10,33 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Ubuntu Mono";
+  font-family: "Ubuntu Mono";
 }
 
 p,
 a,
 button {
-    font-family: "Nunito" !important;
+  font-family: "Nunito" !important;
 }
 
 .home-img img {
-    height: 48rem;
+  height: 48rem;
 }
 
 .overlay > h1 {
-    font-size: 3.2rem;
+  font-size: 3.2rem;
 }
 
 .short-about img {
-    width: 90%;
+  width: 90%;
 }
 
 .why-us > .container-fluid {
-    margin: 0 17rem;
+  margin: 0 17rem;
+}
+
+.services > .container-fluid {
+  margin: 0 10rem;
 }
 
 .icon-speed,
@@ -40,15 +44,23 @@ button {
 .icon-chart,
 .icon-shield,
 .icon-public {
-    font-size: 4rem;
+  font-size: 4rem;
+}
+
+.icon-cloud,
+.icon-server,
+.icon-hard-drive,
+.icon-dns,
+.icon-database {
+  font-size: 3.5rem;
 }
 
 .partner > div > div > div:first-child {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .partner > div > div > div:last-child {
-    padding-right: 6rem;
+  padding-right: 6rem;
 }
 
 @import "./icons.scss";

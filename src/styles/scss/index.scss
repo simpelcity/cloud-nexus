@@ -1,0 +1,56 @@
+$primary: #4a90e2;
+$secondary: #8ed6ff;
+$success: #2ecc71;
+$white: #ffffff;
+$light: #f5f6fa;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Ubuntu Mono";
+}
+
+p,
+a,
+button {
+    font-family: "Nunito" !important;
+}
+
+.home-img img {
+    height: 48rem;
+}
+
+.overlay > h1 {
+    font-size: 3.2rem;
+}
+
+.short-about img {
+    width: 90%;
+}
+
+.why-us > .container-fluid {
+    margin: 0 17rem;
+}
+
+.icon-speed,
+.icon-support,
+.icon-chart,
+.icon-shield,
+.icon-public {
+    font-size: 4rem;
+}
+
+.partner > div > div > div:first-child {
+    margin-left: 2rem;
+}
+
+.partner > div > div > div:last-child {
+    padding-right: 6rem;
+}
+
+@import "./icons.scss";
+@import "./navbar.scss";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";

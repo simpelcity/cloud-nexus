@@ -1,8 +1,47 @@
+// Navbar styles
+
 .nav-logo {
   width: 3.5rem;
   height: 3.5rem;
 }
 
-.navbar > .container-fluid {
-  margin: 0 8rem;
+.nav-container {
+  // Desktop
+
+  @media (min-width: 992px) {
+    margin: 0 8rem !important;
+  }
+
+  // Mobile
+
+  @media (max-width: 576px) {
+    margin: 0 !important;
+  }
+
+  // Tablet
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    margin: 0 2rem !important;
+  }
+
+  @media (max-width: 1200px) {
+    margin: 0 4rem !important;
+  }
+}
+
+.navbar-toggler {
+  border: solid 1px rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar-custom {
+  background: transparent;
+  backdrop-filter: none;
+}
+
+@media (max-width: 991px) {
+  .navbar-custom.nav-open {
+    background: rgba(0, 0, 0, 0.35);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
 }

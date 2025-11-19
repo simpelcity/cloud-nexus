@@ -1,8 +1,11 @@
+// Colors
 $primary: #4a90e2;
 $secondary: #8ed6ff;
 $success: #2ecc71;
 $white: #ffffff;
 $light: #f5f6fa;
+
+// Fonts
 
 h1,
 h2,
@@ -15,54 +18,153 @@ h6 {
 
 p,
 a,
-button {
+button,
+.list-group-item {
   font-family: "Nunito" !important;
 }
 
-.home-img img {
-  height: 48rem;
+.fs-4 {
+  font-weight: 600;
+}
+
+.fs-5 {
+  font-weight: 600;
 }
 
 .overlay > h1 {
   font-size: 3.2rem;
 }
 
-.short-about img {
-  width: 90%;
+.btn:hover {
+  color: black !important;
 }
 
-.why-us > .container-fluid {
-  margin: 0 17rem;
-}
+// Layout adjustments
 
-.services > .container-fluid {
-  margin: 0 10rem;
-}
-
-.icon-speed,
-.icon-support,
-.icon-chart,
-.icon-shield,
-.icon-public {
-  font-size: 4rem;
-}
-
-.icon-cloud,
-.icon-server,
-.icon-hard-drive,
-.icon-dns,
-.icon-database {
-  font-size: 3.5rem;
-}
+// Partner section responsiveness
 
 .partner > div > div > div:first-child {
-  margin-left: 2rem;
+  @media (min-width: 1200px) {
+    margin-left: 2rem;
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    margin-left: 0;
+  }
 }
 
 .partner > div > div > div:last-child {
-  padding-right: 6rem;
+  @media (min-width: 1200px) {
+    padding-right: 5rem;
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    padding-right: 0;
+  }
 }
+
+// Why Choose Us section responsiveness
+
+.why-us > .container-fluid {
+  @media (min-width: 992px) {
+    margin: 0 16rem;
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    margin: 0 7rem;
+  }
+}
+
+// Services section responsiveness
+
+.services > .container-fluid {
+  @media (min-width: 576px) and (max-width: 992px) {
+    margin: 0;
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    margin: 0 4rem;
+  }
+
+  @media (min-width: 1200px) {
+    margin: 0 10rem;
+  }
+}
+
+// Hosting Services section responsiveness
+
+.hosting-services > .container-fluid {
+  @media (min-width: 1200px) {
+    margin: 0 9rem 0 18rem;
+  }
+}
+
+// Pricing Plans section responsiveness
+
+.plans-pricing {
+  min-height: calc(100vh - 82px - 223.45px);
+}
+
+.plans-pricing h1 {
+  @media (min-width: 1200px) {
+    font-size: 3rem;
+  }
+}
+
+.plans-pricing > .container {
+  @media (min-width: 1600px) {
+    margin: 0 22rem;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1600px) {
+    margin: 0 10rem;
+  }
+}
+
+// About Us section responsiveness
+
+.welcome-about > .container {
+  margin: 0 24rem;
+}
+
+// Responsive styling
+
+// mobile styling
+
+@media (max-width: 576px) {
+  .overlay > h1 {
+    font-size: 2rem;
+  }
+}
+
+// mobile landscape styling
+
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+// tablet styling
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+// tablet landscape styling
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+// small desktop styling
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+
+// large desktop styling
+
+@media (min-width: 1400px) {
+}
+
+// Imports
 
 @import "./icons.scss";
 @import "./navbar.scss";
+@import "./footer.scss";
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";

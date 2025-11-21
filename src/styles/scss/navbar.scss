@@ -6,12 +6,6 @@
 }
 
 .nav-container {
-  // Desktop
-
-  @media (min-width: 992px) {
-    margin: 0 8rem !important;
-  }
-
   // Mobile
 
   @media (max-width: 576px) {
@@ -24,8 +18,18 @@
     margin: 0 2rem !important;
   }
 
-  @media (max-width: 1200px) {
+  @media (min-width: 992px) and (max-width: 1200px) {
     margin: 0 4rem !important;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    margin: 0 6rem !important;
+  }
+
+  // Desktop
+
+  @media (min-width: 1400px) {
+    margin: 0 8rem !important;
   }
 }
 

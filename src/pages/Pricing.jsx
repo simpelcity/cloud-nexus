@@ -18,7 +18,7 @@ export default function Pricing() {
               <Button href="#dedicated" variant="primary" className="fw-bold text-uppercase text-white rounded-end-1 fs-5">dedicated</Button>
             </ButtonGroup>
 
-            <Row className="d-flex justify-content-center w-100 mt-4">
+            <Row className="d-flex justify-content-center w-100 mt-4 row-gap-4">
               <Col xl={4} className="mt-3">
                 <Card className="shadow-sm border-0 rounded-0">
                   <Card.Body>
@@ -59,7 +59,7 @@ export default function Pricing() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xl={4} className="mt-3">
+              <Col xl={4} className="mt-0 mt-xl-3">
                 <Card className="shadow-sm border-0 rounded-0">
                   <Card.Body>
                     <Card.Title className="text-uppercase fw-bold m-0 fs-4">cloud</Card.Title>

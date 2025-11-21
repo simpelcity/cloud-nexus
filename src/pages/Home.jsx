@@ -11,7 +11,7 @@ export default function Home() {
           </div>
         </section>
         <section className="short-about d-flex justify-content-center text-center">
-          <Container className="d-flex flex-column align-items-center my-5">
+          <Container className="d-flex flex-column align-items-center my-5" fluid>
             <h1 className="fw-bold text-uppercase mb-4 mb-lg-2">
               <span>your</span>{" "}
               <span className="text-primary">partner</span>{" "}
@@ -37,8 +37,8 @@ export default function Home() {
               <span>cloud nexus?</span>
             </h1>
             <Row className="d-flex justify-content-center w-100 mb-2 mb-xl-0">
-              <Col md={6} lg={4} xl={4} className="d-flex flex-column align-items-center mb-4 mb-lg-3">
-                <span className="material-symbols-outlined icon-speed">speed</span>
+              <Col md={6} lg={4} xl={4} className="d-flex flex-column align-items-center mb-4">
+                <Image src="/assets/icons/speedometer.svg" alt="Speedometer Icon" className="icon-speed" />
                 <h4 className="fw-bold text-uppercase">
                   <span className="text-primary">lightning-fast</span>{" "}
                   <span>performance</span>
@@ -48,7 +48,7 @@ export default function Home() {
                 </p>
               </Col>
               <Col md={6} lg={4} xl={4} className="d-flex flex-column align-items-center mb-4 mb-lg-3">
-                <span className="material-symbols-outlined icon-support">support_agent</span>
+                <Image src="/assets/icons/support-agent.svg" alt="Support Agent Icon" className="icon-support" />
                 <h4 className="fw-bold text-uppercase">
                   <span className="text-primary">24/7</span>{" "}
                   <span>expert support</span>
@@ -58,7 +58,7 @@ export default function Home() {
                 </p>
               </Col>
               <Col md={6} lg={4} xl={4} className="d-flex flex-column align-items-center mb-4 mb-lg-3">
-                <span className="material-symbols-outlined icon-chart">bar_chart_4_bars</span>
+                <Image src="/assets/icons/chart-bar.svg" alt="Chart Icon" className="icon-chart" />
                 <h4 className="fw-bold text-uppercase">
                   <span className="text-primary">scalable</span>{" "}
                   <span>solutions</span>
@@ -68,7 +68,7 @@ export default function Home() {
                 </p>
               </Col>
               <Col md={6} lg={4} xl={4} className="d-flex flex-column align-items-center mb-4 mb-lg-3">
-                <span className="material-symbols-outlined icon-filled icon-shield">shield_lock</span>
+                <Image src="/assets/icons/shield-lock.svg" alt="Shield Lock Icon" className="icon-shield-lock" />
                 <h4 className="fw-bold text-uppercase">
                   <span className="text-primary">unparalleled</span>{" "}
                   <span>security</span>
@@ -78,7 +78,7 @@ export default function Home() {
                 </p>
               </Col>
               <Col md={6} lg={4} xl={4} className="d-flex flex-column align-items-center mb-4 mb-lg-3">
-                <span className="material-symbols-outlined icon-public">public</span>
+                <Image src="/assets/icons/globe.svg" alt="Globe Icon" className="icon-globe" />
                 <h4 className="fw-bold text-uppercase">
                   <span className="text-primary">global</span>{" "}
                   <span>presence</span>
@@ -95,7 +95,7 @@ export default function Home() {
           </Container>
         </section>
         <section className="partner d-flex justify-content-center text-center text-md-start">
-          <Container className="d-flex flex-column align-items-center justify-content-center my-5">
+          <Container className="d-flex flex-column align-items-center justify-content-center my-5" fluid>
             <h1 className="fw-bold text-uppercase mb-4 mb-lg-2">
               <span>a hosting</span>{" "}
               <span className="text-primary">partner</span>{" "}
@@ -106,7 +106,7 @@ export default function Home() {
               <Col md={5} lg={4} xl={3} className="d-flex justify-content-center justify-content-lg-end">
                 <Image src="/assets/images/harddisks-in-server.jpg" alt="Hard Disks in server" loading="lazy" className="" rounded />
               </Col>
-              <Col md={7} lg={7} xl={7} className="d-flex align-items-center">
+              <Col md={7} lg={7} xl={6} className="d-flex align-items-center">
                 <p className="mb-0 fs-5">
                   At Cloud Nexus, we don't just provide hosting services; we provide peace of mind. Our mission is to deliver reliable, innovative, and scalable solutions to help you thrive online. Whether you're building a website, managing a team, or scaling an application, we're with you every step of the way.
                 </p>
@@ -120,7 +120,7 @@ export default function Home() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-cloud">cloud_circle</span>
+                    <Image src="/assets/icons/cloud.svg" alt="Cloud Icon" className="icon-cloud" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">cloud</Card.Title>
                     <Card.Text className="text-center fs-5">
                       A little money gets you lots of cloud. Flexible cloud servers with high-end hardware.
@@ -132,7 +132,7 @@ export default function Home() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-server">storage</span>
+                    <Image src="/assets/icons/server.svg" alt="Servers Icon" className="icon-servers" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">dedicated server</Card.Title>
                     <Card.Text className="text-center fs-5">
                       Dedicated root servers to meet any end. Top performance with an exellent connection.
@@ -144,7 +144,7 @@ export default function Home() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-hard-drive">hard_drive</span>
+                    <Image src="/assets/icons/server-plus.svg" alt="Server Plus Icon" className="icon-server-plus" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">managed server</Card.Title>
                     <Card.Text className="text-center fs-5">
                       Stress-free server connection. We'll take care of the technical stuff.
@@ -156,7 +156,7 @@ export default function Home() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-dns">dns</span>
+                    <Image src="/assets/icons/server-network.svg" alt="Server Network Icon" className="icon-colocation" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">colocation</Card.Title>
                     <Card.Text className="text-center fs-5">
                       State-of-the-art infrastructure for your project. A range of colocation rack to choose from.
@@ -168,7 +168,7 @@ export default function Home() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-filled icon-database">database</span>
+                    <Image src="/assets/icons/database.svg" alt="Database Icon" className="icon-database" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">storage buckets</Card.Title>
                     <Card.Text className="text-center fs-5">
                       Access your storage from everywhere and at any time via PC, smartphone, and tablet.

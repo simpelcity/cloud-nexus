@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Card, ListGroup } from 'react-bootstrap';
+import { Container, Row, Col, Button, Card, ListGroup, Image } from 'react-bootstrap';
 
 export default function Services() {
   return (
@@ -11,7 +11,7 @@ export default function Services() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-cloud">cloud_circle</span>
+                    <Image src="/assets/icons/cloud.svg" alt="Cloud Icon" className="icon-cloud" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">cloud</Card.Title>
                     <Card.Text className="text-center fs-5">
                       A little money gets you lots of cloud. Flexible cloud servers with high-end hardware.
@@ -23,7 +23,7 @@ export default function Services() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-server">storage</span>
+                    <Image src="/assets/icons/server.svg" alt="Servers Icon" className="icon-servers" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">dedicated server</Card.Title>
                     <Card.Text className="text-center fs-5">
                       Dedicated root servers to meet any end. Top performance with an exellent connection.
@@ -35,7 +35,7 @@ export default function Services() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-hard-drive">hard_drive</span>
+                    <Image src="/assets/icons/server-plus.svg" alt="Server Plus Icon" className="icon-server-plus" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">managed server</Card.Title>
                     <Card.Text className="text-center fs-5">
                       Stress-free server connection. We'll take care of the technical stuff.
@@ -47,7 +47,7 @@ export default function Services() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-dns">dns</span>
+                    <Image src="/assets/icons/server-network.svg" alt="Server Network Icon" className="icon-colocation" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">colocation</Card.Title>
                     <Card.Text className="text-center fs-5">
                       State-of-the-art infrastructure for your project. A range of colocation rack to choose from.
@@ -59,7 +59,7 @@ export default function Services() {
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <span className="material-symbols-outlined icon-filled icon-database">database</span>
+                    <Image src="/assets/icons/database.svg" alt="Database Icon" className="icon-database" />
                     <Card.Title className="fs-4 text-uppercase fw-bold">storage buckets</Card.Title>
                     <Card.Text className="text-center fs-5">
                       Access your storage from everywhere and at any time via PC, smartphone, and tablet.
@@ -71,16 +71,16 @@ export default function Services() {
             </Row>
           </Container>
         </section>
-        <section className="why-us-services d-flex justify-content-center bg-light">
-          <Container className="my-5">
+        <section className="why-us-services d-flex justify-content-center text-center bg-light">
+          <Container className="d-flex flex-column align-items-center my-5">
             <h1 className="fw-bold text-uppercase">why choose cloud nexus?</h1>
             <Row className="d-flex justify-content-center justify-content-xl-start row-gap-4 w-100">
-              <Col xl={9}>
+              <Col lg={9} xl={9}>
                 <p className="fs-5">
                   At Cloud Nexus, we're committed to empowering your business with hosting solutions that combine cutting-edge technology, flexibility, and peace of mind. Whether you need customized configurations, proactive support, or a secure environment for your critical infrastructure, we deliver excellence at every step. Experience the difference today!
                 </p>
               </Col>
-              <Col xl={2}>
+              <Col lg={3} xl={2} className="d-flex justify-content-center">
                 <ListGroup className="text-start">
                   <ListGroup.Item className="border-0 p-0 bg-light">
                     <p className="fs-5 m-0 d-flex align-items-center column-gap-1">
@@ -112,9 +112,9 @@ export default function Services() {
           </Container>
         </section>
         <section className="hosting-services d-flex justify-content-center text-start">
-          <Container className="my-5" fluid>
+          <Container className="my-5 d-flex justify-content-center" fluid>
             <Row className="d-flex justify-content-center justify-content-xl-start row-gap-4 column-gap-xl-5 w-100">
-              <Col xl={3} className="d-flex align-items-center">
+              <Col lg={4} xl={3} className="d-flex align-items-center justify-content-center">
                 <ListGroup className="">
                   <ListGroup.Item className="border-0 p-0">
                     <p className="fs-5 m-0 d-flex align-items-center column-gap-1">
@@ -142,8 +142,8 @@ export default function Services() {
                   </ListGroup.Item>
                 </ListGroup>
               </Col>
-              <Col xl={8}>
-                <h1 className="fw-bold text-uppercase text-start">custom hosting solutions for unique requirements</h1>
+              <Col lg={7} xl={8} className="text-center text-lg-start">
+                <h1 className="fw-bold text-uppercase">custom hosting solutions for unique requirements</h1>
                 <p className="fs-5">
                   We understand that every business has unique needs, and one-size-fits-all solutions might not always work. That's why we offer custom hosting solutions designed specifically for your requirements. Whether you need specialized hardware, bespoke configurations, or tailored support, we've got you covered.
                 </p>

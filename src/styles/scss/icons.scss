@@ -1,14 +1,3 @@
-// Icon styles
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-}
-
-.icon-filled {
-  &.material-symbols-outlined {
-    font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24 !important;
-  }
-}
-
 // Image sizes
 
 .home-img img {
@@ -77,17 +66,31 @@
 .icon-speed,
 .icon-support,
 .icon-chart,
-.icon-shield,
-.icon-public {
-  font-size: 4rem;
+.icon-shield-lock,
+.icon-globe {
+  width: 4.5rem;
+  height: auto;
+  aspect-ratio: 1 / 1;
 }
 
 .icon-cloud,
-.icon-server,
-.icon-hard-drive,
-.icon-dns,
+.icon-servers,
+.icon-server-plus,
+.icon-colocation,
 .icon-database {
-  font-size: 3.5rem;
+  width: 3.3rem;
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+.icon-contact-card,
+.icon-sales,
+.icon-support-agent,
+.icon-receipt,
+.icon-office {
+  width: 4.5rem;
+  height: auto;
+  aspect-ratio: 1 / 1;
 }
 
 // Responsive image sizes

@@ -31,10 +31,6 @@ button,
   font-weight: 600;
 }
 
-.overlay > h1 {
-  font-size: 3.2rem;
-}
-
 .btn:hover {
   color: black !important;
 }
@@ -44,106 +40,100 @@ button,
 // Short About section responsiveness
 
 .short-about > .container-fluid {
+  // Mobile
+  @media (max-width: 576px) {
+  }
+
+  // Tablet
   @media (min-width: 768px) and (max-width: 992px) {
-    margin: 0 2rem;
   }
 
-  @media (min-width: 992px) and (max-width: 1200px) {
-    margin: 0 4rem;
-  }
-
-  @media (min-width: 1200px) and (max-width: 1400px) {
-    margin: 0 6rem;
-  }
-
-  @media (min-width: 1400px) {
-    margin: 0 8rem;
+  // Desktop
+  @media (min-width: 1200px) {
   }
 }
 
 .short-about p {
-  @media (min-width: 1400px) {
-    margin-left: 8rem !important;
+  @media (min-width: 1200px) {
+    margin-left: 1.6rem;
   }
 }
 
 // Why Choose Us section responsiveness
 
 .why-us > .container-fluid {
-  @media (min-width: 992px) and (max-width: 1200px) {
-    margin: 0 4rem;
+  // Mobile
+  @media (max-width: 576px) {
   }
 
-  @media (min-width: 1200px) and (max-width: 1400px) {
-    margin: 0 6rem;
+  // Tablet
+  @media (min-width: 768px) and (max-width: 992px) {
   }
 
-  @media (min-width: 1400px) {
-    margin: 0 8rem;
-  }
-}
-
-.why-us .row {
-  @media (min-width: 1400px) {
-    padding: 0 7rem;
+  // Desktop
+  @media (min-width: 1200px) {
   }
 }
 
 // Partner section responsiveness
 
 .partner > .container-fluid {
+  // Mobile
+  @media (max-width: 576px) {
+  }
+
+  // Tablet
   @media (min-width: 768px) and (max-width: 992px) {
-    margin: 0 2rem;
   }
 
-  @media (min-width: 992px) and (max-width: 1200px) {
-    margin: 0 4rem;
-  }
-
-  @media (min-width: 1200px) and (max-width: 1400px) {
-    margin: 0 6rem;
-  }
-
-  @media (min-width: 1400px) {
-    margin: 0 8rem;
+  // Desktop
+  @media (min-width: 1200px) {
   }
 }
 
 .partner > div > div > div:last-child {
-  @media (min-width: 992px) and (max-width: 1200px) {
-    padding-right: 0;
+  // Mobile
+  @media (max-width: 576px) {
   }
 
+  // Tablet
+  @media (min-width: 768px) and (max-width: 992px) {
+  }
+
+  // Desktop
   @media (min-width: 1200px) {
-    padding-right: 8rem;
   }
 }
 
 // Services section responsiveness
 
 .services > .container-fluid {
-  @media (min-width: 992px) and (max-width: 1200px) {
-    margin: 0 4rem;
+  // Mobile
+  @media (max-width: 576px) {
   }
 
-  @media (min-width: 1200px) and (max-width: 1400px) {
-    margin: 0 4rem;
+  // Tablet
+  @media (min-width: 768px) and (max-width: 992px) {
   }
 
-  @media (min-width: 1400px) {
-    margin: 0 8rem;
+  // Desktop
+  @media (min-width: 1200px) {
   }
 }
 
 // Hosting Services section responsiveness
 
 .hosting-services > .container-fluid {
-  @media (min-width: 1200px) and (max-width: 1400px) {
-    margin: 0 6rem;
+  // Mobile
+  @media (max-width: 576px) {
   }
 
-  @media (min-width: 1400px) {
-    margin: 0 9rem 0 18rem;
+  // Tablet
+  @media (min-width: 768px) and (max-width: 992px) {
+  }
+
+  // Desktop
+  @media (min-width: 1200px) {
   }
 }
 
@@ -160,12 +150,16 @@ button,
 }
 
 .plans-pricing > .container {
-  @media (min-width: 1600px) {
-    margin: 0 22rem;
+  // Mobile
+  @media (max-width: 576px) {
   }
 
-  @media (min-width: 1200px) and (max-width: 1600px) {
-    margin: 0 10rem;
+  // Tablet
+  @media (min-width: 768px) and (max-width: 992px) {
+  }
+
+  // Desktop
+  @media (min-width: 1200px) {
   }
 }
 
@@ -195,29 +189,14 @@ button,
   }
 }
 
-// mobile landscape styling
-
-@media (min-width: 576px) and (max-width: 768px) {
-}
-
 // tablet styling
 
 @media (min-width: 768px) and (max-width: 992px) {
 }
 
-// tablet landscape styling
+// desktop styling
 
-@media (min-width: 992px) and (max-width: 1200px) {
-}
-
-// small desktop styling
-
-@media (min-width: 1200px) and (max-width: 1400px) {
-}
-
-// large desktop styling
-
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 }
 
 // Imports

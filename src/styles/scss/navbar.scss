@@ -1,41 +1,15 @@
-// Navbar styles
+// MOBILE NAVBAR STYLING
 
-.nav-logo {
-  width: 2.5rem;
-  height: auto;
-  aspect-ratio: 1 / 1;
+.btn-close {
+  box-shadow: none !important;
 }
 
-.nav-container {
-  // Mobile
-
-  // Mobile
-  @media (max-width: 576px) {
-    margin: 0 !important;
+.nav-home {
+  @media (max-width: 991px) {
+    color: var(--bs-secondary-color) !important;
   }
 
-  // Tablet
-  @media (min-width: 768px) and (max-width: 992px) {
-  }
-
-  // Desktop
   @media (min-width: 1200px) {
-  }
-}
-
-.navbar-toggler {
-  border: solid 1px rgba(255, 255, 255, 0.5) !important;
-}
-
-.navbar-custom {
-  background: transparent;
-  backdrop-filter: none;
-}
-
-@media (max-width: 991px) {
-  .navbar-custom.nav-open {
-    background: rgba(0, 0, 0, 0.35);
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    color: white !important;
   }
 }

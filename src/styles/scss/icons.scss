@@ -1,11 +1,11 @@
-// Icon sizes
+// ICON SIZES
 
 .icon-speed,
 .icon-support,
 .icon-chart,
 .icon-shield-lock,
 .icon-globe {
-  width: 3.8rem;
+  width: 3.7rem;
   height: auto;
   aspect-ratio: 1 / 1;
 }
@@ -25,43 +25,33 @@
 .icon-support-agent,
 .icon-receipt,
 .icon-office {
-  width: 4.5rem;
+  width: 3.5rem;
   height: auto;
   aspect-ratio: 1 / 1;
 }
 
-// Image sizes
+// IMAGE SIZES
+
+// --- HOME PAGE IMAGES ---
+
+// WELCOME SECTION
 
 .home-img img {
   height: 73vh;
 }
 
-.short-about img {
-  @media (max-width: 576px) {
-    width: 100% !important;
-    height: auto;
-    aspect-ratio: 6 / 4;
-  }
+// PARTNER SECTION
 
-  @media (min-width: 768px) and (max-width: 992px) {
-    width: 100% !important;
-    height: auto;
-    aspect-ratio: 6 / 4;
-  }
-
+.partner img {
   @media (min-width: 1200px) {
     width: 90% !important;
-    height: auto;
-    aspect-ratio: 6 / 4;
   }
 }
 
-.partner img {
-  @media (max-width: 576px) {
-    width: 100% !important;
-  }
+// HOSTING PARTNER SECTION
 
-  @media (min-width: 768px) and (max-width: 992px) {
+.hosting-partner img {
+  @media (min-width: 576px) and (max-width: 992px) {
     width: 100% !important;
   }
 
@@ -70,30 +60,38 @@
   }
 }
 
-.footer-logo {
-  @media (max-width: 576px) {
-    width: 90% !important;
-    height: auto;
-    aspect-ratio: 1 / 1;
-  }
+// --- ABOUT US PAGE ---
 
-  @media (min-width: 768px) and (max-width: 992px) {
-    width: 75% !important;
-    height: auto;
-    aspect-ratio: 1 / 1;
-  }
-
-  @media (min-width: 1200px) {
-    width: 45% !important;
-    height: auto;
-    aspect-ratio: 1 / 1;
-  }
-
-  width: 60%;
-}
+// WELCOME SECTION
 
 .welcome-about img {
   width: 100%;
-  height: auto;
-  aspect-ratio: 376 / 251;
+}
+
+// --- NAVBAR ---
+
+.nav-logo {
+  width: 2.5rem;
+}
+
+// --- FOOTER ---
+
+.footer-logo {
+  @media (max-width: 576px) {
+    width: 85% !important;
+    height: auto;
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    width: 45% !important;
+    height: auto;
+  }
+
+  @media (min-width: 1200px) {
+    width: 40% !important;
+    height: auto;
+  }
+
+  width: 55%;
+  max-width: 162px;
 }

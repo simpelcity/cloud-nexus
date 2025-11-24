@@ -14,194 +14,50 @@ h4,
 h5,
 h6 {
   font-family: "Ubuntu Mono";
+  font-weight: 700 !important;
 }
 
 p,
 a,
-button,
 .list-group-item {
   font-family: "Nunito" !important;
-}
-
-.fs-4 {
-  font-weight: 600;
-}
-
-.fs-5 {
-  font-weight: 600;
+  font-weight: 500 !important;
 }
 
 .btn:hover {
   color: black !important;
 }
 
-// Layout adjustments
+// LAYOUT ADJUSTMENTS
 
-// Short About section responsiveness
+// --- PRICING PAGE STYLING ---
 
-.short-about > .container-fluid {
-  // Mobile
-  @media (max-width: 576px) {
-  }
-
-  // Tablet
-  @media (min-width: 768px) and (max-width: 992px) {
-  }
-
-  // Desktop
-  @media (min-width: 1200px) {
-  }
-}
-
-.short-about p {
-  @media (min-width: 1200px) {
-    margin-left: 1.6rem;
-  }
-}
-
-// Why Choose Us section responsiveness
-
-.why-us > .container-fluid {
-  // Mobile
-  @media (max-width: 576px) {
-  }
-
-  // Tablet
-  @media (min-width: 768px) and (max-width: 992px) {
-  }
-
-  // Desktop
-  @media (min-width: 1200px) {
-  }
-}
-
-// Partner section responsiveness
-
-.partner > .container-fluid {
-  // Mobile
-  @media (max-width: 576px) {
-  }
-
-  // Tablet
-  @media (min-width: 768px) and (max-width: 992px) {
-  }
-
-  // Desktop
-  @media (min-width: 1200px) {
-  }
-}
-
-.partner > div > div > div:last-child {
-  // Mobile
-  @media (max-width: 576px) {
-  }
-
-  // Tablet
-  @media (min-width: 768px) and (max-width: 992px) {
-  }
-
-  // Desktop
-  @media (min-width: 1200px) {
-  }
-}
-
-// Services section responsiveness
-
-.services > .container-fluid {
-  // Mobile
-  @media (max-width: 576px) {
-  }
-
-  // Tablet
-  @media (min-width: 768px) and (max-width: 992px) {
-  }
-
-  // Desktop
-  @media (min-width: 1200px) {
-  }
-}
-
-// Hosting Services section responsiveness
-
-.hosting-services > .container-fluid {
-  // Mobile
-  @media (max-width: 576px) {
-  }
-
-  // Tablet
-  @media (min-width: 768px) and (max-width: 992px) {
-  }
-
-  // Desktop
-  @media (min-width: 1200px) {
-  }
-}
-
-// Pricing Plans section responsiveness
+// PRICING SECTION
 
 .plans-pricing {
-  min-height: calc(100vh - 82px - 223.45px);
-}
-
-.plans-pricing h1 {
   @media (min-width: 1200px) {
-    font-size: 3rem;
-  }
-}
-
-.plans-pricing > .container {
-  // Mobile
-  @media (max-width: 576px) {
+    min-height: calc(100vh - 66px - 187.19px);
   }
 
-  // Tablet
   @media (min-width: 768px) and (max-width: 992px) {
+    min-height: calc(100vh - 66px - 289.8px);
   }
+}
 
-  // Desktop
+// --- ABOUT US PAGE STYLING ---
+
+// ABOUT US SECTION
+
+.welcome-about > .container,
+.services-about > .container,
+.join-about > .container {
   @media (min-width: 1200px) {
+    margin: 0 15rem;
   }
-}
-
-// About Us section responsiveness
-
-.welcome-about > .container {
-  margin: 0 24rem;
-}
-
-// Contact Us section responsiveness
-
-.cards-contact > .container-fluid {
-  margin: 0 8rem;
-}
-
-.cards-contact .card-title {
-  font-size: 2.2rem;
-}
-
-// Responsive styling
-
-// mobile styling
-
-@media (max-width: 576px) {
-  .overlay > h1 {
-    font-size: 2rem;
-  }
-}
-
-// tablet styling
-
-@media (min-width: 768px) and (max-width: 992px) {
-}
-
-// desktop styling
-
-@media (min-width: 1200px) {
 }
 
 // Imports
 
 @import "./icons.scss";
 @import "./navbar.scss";
-@import "./footer.scss";
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";

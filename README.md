@@ -19,6 +19,7 @@ Cloud Nexus is your trusted partner in providing hosting, building, scaling and 
   - [📋 Table of Contents](#-table-of-contents)
   - [About](#about)
   - [✨ Features](#-features)
+  - [Used Techniques](#used-techniques)
   - [📦 Installation](#-installation)
     - [Option 1: Clone Repository](#option-1-clone-repository)
     - [Option 2: Download ZIP](#option-2-download-zip)
@@ -38,6 +39,16 @@ Cloud Nexus is your trusted partner in providing hosting, building, scaling and 
 - 📞 **User Friendly**: Users can easily find their way around the website.
 - 📱 **Responsive Design**: Adapts seamlessly to different screen sizes and devices.
 - 🔍 **SEO**: The website is optimalized with different SEO techniques to make the website easily findable on the internet.
+
+## Used Techniques
+
+| Badge                                                                                                                        | Description                                             |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)                          | **React** — Component-based UI framework                |
+| ![React Bootstrap](https://img.shields.io/badge/React%20Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) | **React Bootstrap** — Bootstrap-powered UI components   |
+| ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)     | **React Router** — Client-side navigation and routing   |
+| ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)                              | **Sass (SCSS)** — Modular and powerful CSS preprocessor |
+
 
 ## 📦 Installation
 

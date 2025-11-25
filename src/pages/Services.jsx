@@ -3,6 +3,7 @@ import { Container, Row, Col, Button, Card, ListGroup, Image } from 'react-boots
 export default function Services() {
   return (
     <>
+      <title>Services | Cloud Nexus</title>
       <main>
         {/* --- SERVICES SECTION --- */}
         <section className="services d-flex justify-content-center text-center">

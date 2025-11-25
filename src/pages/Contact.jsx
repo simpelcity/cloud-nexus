@@ -3,6 +3,52 @@ import { Container, Row, Col, ListGroup, Card, Image } from 'react-bootstrap';
 export default function Contact() {
   return (
     <>
+      <title>Contact Us | Cloud Nexus</title>
+      <meta name="description" content="Get in touch with Cloud Nexus. Contact our sales, technical, billing, or customer service teams for all your questions." />
+      <link rel="canonical" href="https://www.cloudnexus.com/contact" />
+
+      <script type="application/ld+json">{`
+        {
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          "mainEntity": {
+            "@type": "Organization",
+            "name": "Cloud Nexus",
+            "url": "https://www.cloudnexus.com",
+            "logo": "https://www.cloudnexus.com/logo.png",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+1-555-123-4567",
+                "contactType": "customer service",
+                "email": "info@cloudnexus.com",
+                "areaServed": "US"
+              },
+              {
+                "@type": "ContactPoint",
+                "contactType": "sales & general inquiries",
+                "email": "sales@cloudnexus.com",
+                "areaServed": "US"
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+1-555-987-6543",
+                "contactType": "technical support",
+                "email": "support@cloudnexus.com",
+                "website": "www.cloudnexus.com/support",
+                "areaServed": "US"
+              },
+              {
+                "@type": "ContactPoint",
+                "contactType": "billing support",
+                "email": "billing@cloudnexus.com",
+                "areaServed": "US"
+              },
+            ]
+          }
+        }
+      `}</script>
+
       <main>
         <section className="welcome-about d-flex justify-content-center text-center">
           <Container className="d-flex flex-column align-items-center justify-content-center mt-5 mb-4">

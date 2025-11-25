@@ -3,6 +3,7 @@ import { Container, Row, Col, Button, ButtonGroup, Card, ListGroup } from 'react
 export default function Pricing() {
   return (
     <>
+      <title>Plans & Pricing | Cloud Nexus</title>
       <main>
         <section className="plans-pricing d-flex justify-content text-center">
           <Container className="d-flex flex-column align-items-center justify-content-start my-5">

@@ -3,6 +3,7 @@ import { Container, Row, Col, Image, Button, ListGroup } from 'react-bootstrap';
 export default function About() {
   return (
     <>
+      <title>About Us | Cloud Nexus</title>
       <main>
         <section className="welcome-about d-flex justify-content-center text-center">
           <Container className="d-flex flex-column align-items-center justify-content-center my-5">

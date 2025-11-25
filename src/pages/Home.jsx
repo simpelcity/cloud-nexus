@@ -17,7 +17,7 @@ export default function Home() {
         <section className="welcome home-img position-relative">
           <Image src="/assets/images/server-rack.jpg" alt="Server Rack" className="object-fit-cover w-100" />
           <div className="overlay position-absolute top-0 h-100 w-100 d-flex justify-content-center align-items-center">
-            <h2 className="text-white text-uppercase">welcome to cloud nexus</h2>
+            <h1 className="text-white text-uppercase">welcome to cloud nexus</h1>
           </div>
         </section>
         {/* --- PARTNER SECTION --- */}
@@ -101,7 +101,7 @@ export default function Home() {
               </Col>
             </Row>
             <Button variant="primary" href="/services" className="text-white fw-bold rounded-1 text-uppercase d-flex gap-1">
-              <span className="">get started today</span>
+              <span>get started today</span>
               <span className="material-symbols-outlined">keyboard_double_arrow_right</span>
             </Button>
           </Container>

@@ -17,7 +17,7 @@ export default function Contact() {
           <Container className="d-flex flex-column align-items-center justify-content-center mt-5 mb-4">
             <Row className="w-100 d-flex justify-content-center">
               <Col xs={12} md={10} xl={9}>
-                <h2 className="text-uppercase">contact us</h2>
+                <h1 className="text-uppercase">contact us</h1>
                 <p className="m-0">
                   We're here to help! Whether you have questions about our services, need technical
                   support, or want to discuss your hosting needs, our team is just a message away.

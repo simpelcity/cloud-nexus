@@ -15,11 +15,11 @@ export default function Pricing() {
       <main>
         <section className="plans-pricing d-flex justify-content text-center">
           <Container className="d-flex flex-column align-items-center justify-content-start my-5">
-            <h2 className="text-uppercase">
+            <h1 className="text-uppercase">
               <span>plans</span>{" "}
               <span className="text-primary">&</span>{" "}
               <span>pricing</span>
-            </h2>
+            </h1>
 
             <ButtonGroup aria-label="Pricing Plans">
               <Button href="#cloud" variant="primary" className="fw-bold text-uppercase active rounded-start-1">cloud</Button>

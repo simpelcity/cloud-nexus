@@ -19,7 +19,7 @@ Cloud Nexus is your trusted partner in providing hosting, building, scaling and 
   - [📋 Table of Contents](#-table-of-contents)
   - [About](#about)
   - [✨ Features](#-features)
-  - [Used Techniques](#used-techniques)
+  - [🧰 Used Techniques](#-used-techniques)
   - [📦 Installation](#-installation)
     - [Option 1: Clone Repository](#option-1-clone-repository)
     - [Option 2: Download ZIP](#option-2-download-zip)
@@ -40,7 +40,7 @@ Cloud Nexus is your trusted partner in providing hosting, building, scaling and 
 - 📱 **Responsive Design**: Adapts seamlessly to different screen sizes and devices.
 - 🔍 **SEO**: The website is optimalized with different SEO techniques to make the website easily findable on the internet.
 
-## Used Techniques
+## 🧰 Used Techniques
 
 | Badge                                                                                                                        | Description                                             |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |

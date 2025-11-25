@@ -17,10 +17,10 @@ export default function About() {
           <Container className="d-flex flex-column align-items-center justify-content-center my-5">
             <Row className="w-100 mb-4 d-flex justify-content-center">
               <Col xs={12} md={10} xl={10}>
-                <h2 className="text-uppercase">
+                <h1 className="text-uppercase">
                   <span>about</span>{" "}
                   <span className="text-primary">us</span>
-                </h2>
+                </h1>
                 <p className="m-0">
                   Welcome to Cloud Nexus, where innovation meets reliability in the world of web
                   hosting. We're more than just a hosting provider—we're your trusted partner in building,

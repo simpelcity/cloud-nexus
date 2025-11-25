@@ -16,7 +16,7 @@ export default function Services() {
         {/* --- SERVICES SECTION --- */}
         <section className="services d-flex justify-content-center text-center">
           <Container className="d-flex flex-column align-items-center justify-content-center my-5">
-            <h2 className="text-uppercase">services</h2>
+            <h1 className="text-uppercase">services</h1>
             <Row className="d-flex justify-content-center row-gap-4 w-100">
               <Col xs={12} md={6} lg={4}>
                 <Card className="border-0 rounded-0 shadow-sm h-100">

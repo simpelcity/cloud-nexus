@@ -4,6 +4,14 @@ export default function Services() {
   return (
     <>
       <title>Services | Cloud Nexus</title>
+      <meta name="description" content="Check out what we have to offer for your hosting needs, from flexible cloud servers to remote accessable storage buckets." />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Services | Cloud Nexus" />
+      <meta property="og:description" content="Check out what we have to offer for your hosting needs, from flexible cloud servers to remote accessable storage buckets." />
+      <meta property="og:url" content="https://www.cloudnexus.com/services" />
+      <meta property="og:image" content="https://www.cloudnexus.com/assets/images/logo.png" />
+      <link rel="canonical" href="https://www.cloudnexus.com/services" />
+
       <main>
         {/* --- SERVICES SECTION --- */}
         <section className="services d-flex justify-content-center text-center">

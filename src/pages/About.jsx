@@ -4,6 +4,14 @@ export default function About() {
   return (
     <>
       <title>About Us | Cloud Nexus</title>
+      <meta name="description" content="Welcome to Cloud Nexus, where innovation meets reliability in the world of web hosting. We're more than just a hosting provider—we're your trusted partner in building, scaling, and managing your digital presence." />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Cloud Nexus" />
+      <meta property="og:description" content="Welcome to Cloud Nexus, where innovation meets reliability in the world of web hosting. We're more than just a hosting provider—we're your trusted partner in building, scaling, and managing your digital presence." />
+      <meta property="og:url" content="https://www.cloudnexus.com/about-us" />
+      <meta property="og:image" content="https://www.cloudnexus.com/assets/images/logo.png" />
+      <link rel="canonical" href="https://www.cloudnexus.com/about-us" />
+
       <main>
         <section className="welcome-about d-flex justify-content-center text-center">
           <Container className="d-flex flex-column align-items-center justify-content-center my-5">

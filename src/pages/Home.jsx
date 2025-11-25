@@ -4,27 +4,13 @@ export default function Home() {
   return (
     <>
       <title>Cloud Nexus | Reliable Cloud Services</title>
-      <meta name="description" content="Your trusted partner in providing hosting, building, scaling and managing your digital presence." />
+      <meta name="description" content="At Cloud Nexus, we provide cutting-edge hosting services designed to empower businesses and individuals to succeed in a fast-paced digital world. Wheter you're launching a startup, managing a growing enterprise, or creating a personal project, we've got the tools and expertise to make it happen." />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Cloud Nexus" />
-      <meta property="og:description" content="Your trusted partner in providing hosting, building, scaling and managing your digital presence." />
+      <meta property="og:description" content="At Cloud Nexus, we provide cutting-edge hosting services designed to empower businesses and individuals to succeed in a fast-paced digital world. Wheter you're launching a startup, managing a growing enterprise, or creating a personal project, we've got the tools and expertise to make it happen." />
       <meta property="og:url" content="https://www.cloudnexus.com" />
-      <meta property="og:image" content="https://www.cloudnexus.com/logo.png" />
+      <meta property="og:image" content="https://www.cloudnexus.com/assets/images/logo.png" />
       <link rel="canonical" href="https://www.cloudnexus.com/" />
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Cloud Nexus",
-            "url": "https://www.cloudnexus.com",
-            "keywords": "cloud hosting, managed servers, dedicated servers, colocation, web hosting",
-            "description": "Your trusted partner in providing hosting, building, scaling and managing your digital presence."
-          })
-        }}
-      />
 
       <main>
         {/* --- WELCOME SECTION --- */}

@@ -4,6 +4,14 @@ export default function Pricing() {
   return (
     <>
       <title>Plans & Pricing | Cloud Nexus</title>
+      <meta name="description" content="Discover what our different plans provide, and compare them to decide what fits your needs." />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Cloud Nexus" />
+      <meta property="og:description" content="Discover what our different plans provide, and compare them to decide what fits your needs." />
+      <meta property="og:url" content="https://www.cloudnexus.com/pricing" />
+      <meta property="og:image" content="https://www.cloudnexus.com/assets/images/logo.png" />
+      <link rel="canonical" href="https://www.cloudnexus.com/pricing" />
+
       <main>
         <section className="plans-pricing d-flex justify-content text-center">
           <Container className="d-flex flex-column align-items-center justify-content-start my-5">
